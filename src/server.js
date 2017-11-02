@@ -1,0 +1,1 @@
+const Tiff = require('./libtiff');

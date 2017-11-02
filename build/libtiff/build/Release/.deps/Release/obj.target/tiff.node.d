@@ -1,0 +1,1 @@
+cmd_Release/obj.target/tiff.node := g++ -shared -pthread -rdynamic -m64 -L./  -Wl,-soname=tiff.node -o Release/obj.target/tiff.node -Wl,--start-group Release/obj.target/libtiff/tiff.o Release/obj.target/libtiff/main.o -Wl,--end-group 
